@@ -21,6 +21,8 @@ public class UpstacApplication {
 		log.info("Updated Process Id is available on " + fileName);
 		application.addListeners(new ApplicationPidFileWriter(fileName));
 		application.run();
+
+
 	}  
 
 
